@@ -1,0 +1,151 @@
+//part1
+$(document).ready(function(){
+    $('.item1').addClass('text-info1'),
+    $('.bi-search').mouseenter(function(){
+        $(this).removeClass('text-info1'),
+        $(this).addClass('text-silver1');
+    }),
+    $('.bi-search').mouseleave(function(){
+        $(this).removeClass('text-silver1'),
+        $(this).addClass('text-info1');
+    }),
+    $('.btn-navbar').mouseenter(function(){
+        $(this).removeClass('btn-info'),
+        $(this).addClass('btn-silver1');
+    }),
+    $('.btn-navbar').mouseleave(function(){
+        $(this).removeClass('btn-silver1'),
+        $(this).addClass('btn-info');
+    })
+})
+//part3
+$(document).ready(function(){
+    $('.box1-part3').mouseenter(function(){
+        $('.bi-truck').removeClass('text-info'),
+        $('.bi-truck').addClass('text-warning');
+    }),
+    $('.box1-part3').mouseleave(function(){
+        $('.bi-truck').removeClass('text-warning'),
+        $('.bi-truck').addClass('text-info');
+    }),
+    $('.box2-part3').mouseenter(function(){
+        $('.bi-box-seam').removeClass('text-info'),
+        $('.bi-box-seam').addClass('text-warning');
+    }),
+    $('.box2-part3').mouseleave(function(){
+        $('.bi-box-seam').removeClass('text-warning'),
+        $('.bi-box-seam').addClass('text-info');
+    }),
+    $('.box3-part3').mouseenter(function(){
+        $('.bi-arrow-clockwise').removeClass('text-info'),
+        $('.bi-arrow-clockwise').addClass('text-warning');
+    }),
+    $('.box3-part3').mouseleave(function(){
+        $('.bi-arrow-clockwise').removeClass('text-warning'),
+        $('.bi-arrow-clockwise').addClass('text-info');
+    }),
+    $('.box4-part3').mouseenter(function(){
+        $('.bi-inboxes').removeClass('text-info'),
+        $('.bi-inboxes').addClass('text-warning');
+    }),
+    $('.box4-part3').mouseleave(function(){
+        $('.bi-inboxes').removeClass('text-warning'),
+        $('.bi-inboxes').addClass('text-info');
+    })
+})
+//part4
+$(document).ready(function(){
+    $('.btn-warning1').mouseenter(function(){
+        $(this).removeClass('btn-warning1'),
+        $(this).addClass('btn-silver1 text-white');
+    }),
+    $('.btn-warning1').mouseleave(function(){
+        $(this).removeClass('btn-silver1 text-white'),
+        $(this).addClass('btn-warning1');
+    })
+})
+//part5
+$(document).ready(function(){
+    $('.card1-part5-home').mouseenter(function(){
+        $('.img-card1-part5-home').fadeTo('fast',1);
+    }),
+    $('.card1-part5-home').mouseleave(function(){
+        $('.img-card1-part5-home').fadeTo('fast',0.4);
+    }),
+    $('.card2-part5-home').mouseenter(function(){
+        $('.img-card2-part5-home').fadeTo('fast',1);
+    }),
+    $('.card2-part5-home').mouseleave(function(){
+        $('.img-card2-part5-home').fadeTo('fast',0.4);
+    }),
+    $('.card3-part5-home').mouseenter(function(){
+        $('.img-card3-part5-home').fadeTo('fast',1);
+    }),
+    $('.card3-part5-home').mouseleave(function(){
+        $('.img-card3-part5-home').fadeTo('fast',0.4);
+    })
+})
+//part10
+$(document).ready(function(){
+    $('.link-card1').mouseenter(function(){
+        $('.img-card1-part10').css('transform','rotateY(180deg)');
+    }),
+    $('.link-card1').mouseleave(function(){
+        $('.img-card1-part10').css('transform','rotateY(0deg)');
+    }),
+    $('.link-card2').mouseenter(function(){
+        $('.img-card2-part10').css('transform','rotateY(180deg)');
+    }),
+    $('.link-card2').mouseleave(function(){
+        $('.img-card2-part10').css('transform','rotateY(0deg)');
+    }),
+    $('.link-card3').mouseenter(function(){
+        $('.img-card3-part10').css('transform','rotateY(180deg)');
+    }),
+    $('.link-card3').mouseleave(function(){
+        $('.img-card3-part10').css('transform','rotateY(0deg)');
+    })
+})
+//part11//footer
+$(document).ready(function(){
+    $('.item1-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item1-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item2-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item2-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item3-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item3-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item4-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item4-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item5-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item5-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    })
+})

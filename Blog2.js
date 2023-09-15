@@ -1,0 +1,63 @@
+//part1
+$(document).ready(function(){
+    $('.item5').addClass('text-info1'),
+    $('.bi-search').mouseenter(function(){
+        $(this).removeClass('text-info1'),
+        $(this).addClass('text-silver1');
+    }),
+    $('.bi-search').mouseleave(function(){
+        $(this).removeClass('text-silver1'),
+        $(this).addClass('text-info1');
+    }),
+    $('.btn-navbar').mouseenter(function(){
+        $(this).removeClass('btn-info'),
+        $(this).addClass('btn-silver1');
+    }),
+    $('.btn-navbar').mouseleave(function(){
+        $(this).removeClass('btn-silver1'),
+        $(this).addClass('btn-info');
+    })
+})
+//part4//footer
+$(document).ready(function(){
+    $('.item1-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item1-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item2-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item2-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item3-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item3-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item4-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item4-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    }),
+    $('.item5-footer').mouseenter(function(){
+        $(this).removeClass('text-light1'),
+        $(this).addClass('text-info');
+    }),
+    $('.item5-footer').mouseleave(function(){
+        $(this).removeClass('text-info'),
+        $(this).addClass('text-light1');
+    })
+})

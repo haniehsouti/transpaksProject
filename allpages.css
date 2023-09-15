@@ -1,0 +1,285 @@
+/*Googlefont*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');/*nav*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');/*text*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&display=swap');/*text*/
+/*nav-Home*/
+a.other-items:hover
+{
+    color: #1ac3dd;
+}
+a.item1:hover
+{
+    color: #1ac3dd;
+}
+/****/
+/*nav-Services*/
+a.other-items:hover
+{
+    color: #1ac3dd;
+}
+a.item2:hover
+{
+    color: #1ac3dd;
+}
+/****/
+/*nav-About*/
+a.other-items:hover
+{
+    color: #1ac3dd;
+}
+a.item3:hover
+{
+    color: #1ac3dd;
+}
+/****/
+/*nav-Contact*/
+a.other-items:hover
+{
+    color: #1ac3dd;
+}
+a.item4:hover
+{
+    color: #1ac3dd;
+}
+/****/
+/*nav-Blog*/
+a.other-items:hover
+{
+    color: #1ac3dd;
+}
+a.item5:hover
+{
+    color: #1ac3dd;
+}
+a.link-box2-part3-Blog:hover
+{
+    color: #17a2b8;
+}
+/****/
+a.link-breadcrumb:hover
+{
+    color: #17a2b8;
+}
+nav
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 13pt;
+}
+.text-info1
+{
+    color: #1ac3dd;
+}
+.bg-info1
+{
+    background-color: #17a3b8bd;
+}
+a 
+{
+    color: rgb(41, 40, 40);
+    text-decoration: none;
+    background-color: transparent;
+}
+.text-silver1
+{
+    color: rgba(83, 80, 80, 0.671);
+}
+.btn-silver1
+{
+    background-color: rgba(83, 80, 80, 0.671);
+}
+.sub-sm
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 13pt;
+}
+.sub-lg-part3-Home
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20pt;
+}
+.sub-lg-cards
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18pt;
+}
+.sub-lg2
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 45pt;
+}
+.sub-lg
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 36pt;
+}
+.sub-lg-part9 , .sub-lg-part12
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 15pt;
+}
+.w-35
+{
+    width: 540px;
+}
+.carousel-caption 
+{
+    left: auto;
+    right: auto;
+}
+.bg-muted1
+{
+    background-color: #F7F7F7;
+}
+.bg-muted2
+{
+    background-color: rgba(80, 78, 78, 0.438);
+}
+.h0
+{
+    font-size: 40pt;
+}
+.text-hiden
+{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 80pt;
+}
+.text-muted1
+{
+    color: rgba(221, 213, 213, 0.322);
+}
+.mt-n6
+{
+    margin-top: -60px;
+}
+.btn-warning1
+{
+    background-color: #ecb91f;
+}
+.bg-footer-img
+{
+    background-image: url('Footar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-light1
+{
+    color: rgba(255, 255, 255, 0.596);
+}
+.text-muted2
+{
+    color: rgba(100, 95, 95, 0.527);
+}
+.bg-image-part5-Home
+{
+    background:url('bg.jpg');
+    background-attachment: fixed;
+}
+.bg-image-part7-Home
+{
+    background:url('Parallax.jpg');
+    background-attachment: fixed;
+}
+.bg-image-part9-Home
+{
+    background:url('bg.jpg');
+    background-attachment: fixed;
+}
+.bg-image-part4-Services
+{
+    background:url('bg.jpg');
+    background-attachment: fixed;
+}
+.zoom 
+{
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.zoom:hover 
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.img-card1-part4 , .img-card2-part4 , .img-card3-part4 , .img-card4-part4 , 
+.img-card1-part10 , .img-card2-part10 , .img-card3-part10
+{
+    transition:transform 2s;
+}
+.bg-image-part4-About
+{
+    background:url('Parallax-03.jpg');
+    background-attachment: fixed;
+}
+
+/*calendar*/
+ul {list-style-type: none;}
+.bg-weekdays {
+  background-color:rgba(163, 161, 161, 0.37);
+}
+/* Days (1-31) */
+.bg-days {
+  background: #eee;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #17a3b8bd;
+  color: white !important
+}
+.bg-muted3
+{
+    background-color: rgba(41, 39, 39, 0.76);
+}
+/*pagination*/
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+a.page-link1:hover
+{
+    background-color: #17a2b8;
+    color: white;
+}
+a.page-link2:hover
+{
+    background-color: #17a2b8;
+    color: white;
+}
+a.page-linknext:hover
+{
+    background-color: #17a2b8;
+    color: white;
+}
+a.page-linkprev:hover
+{
+    background-color: #17a2b8;
+    color: white;
+}
+a.page-link2 , .page-linknext , .page-linkprev , .page-link1
+{
+    color: rgb(61, 58, 58);
+}
+/*map-contact*/
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
